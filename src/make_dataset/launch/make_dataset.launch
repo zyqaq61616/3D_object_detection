@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find azure_kinect_ros_driver)/launch/driver.launch">
+    </include>
+    <param name = "number" type = "int" value = "600" />
+    <param name = "name" type = "string" value = "chair" />
+    <param name = "path" type = "string" value = "/home/zyq/catkin_ws/src/make_dataset/model_dataset/" />
+    <node pkg="make_dataset" type="dat" respawn="false" name="make_dataset" output="screen">
+    </node>
+
+</launch>
