@@ -1,0 +1,6 @@
+chair
+stair
+box
+seesaw
+railing
+shelf
