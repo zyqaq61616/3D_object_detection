@@ -1,4 +1,4 @@
-# Some Functions Of Pointnet++ 
+# （The first part）Some Functions Of Pointnet++ 
 " Northeastern University
 Action "
 Some implementations of training, testing and model deployment using PointNet++
@@ -58,3 +58,8 @@ python output_model.py
 ```
 The filename of output model is script_model_1.pt.
 You can use it in ROS.
+
+# （The second part）Somepackages in ros 
+### usage method
+You can add these ROS packages to the "/src" file in your workspace by adding corresponding dependencies and library files.
+
